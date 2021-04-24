@@ -39,3 +39,7 @@ This project is conformed by multiple entities.
 
 ## UML Diagram:
 - This is the link: https://lucid.app/lucidchart/invitations/accept/inv_37c6b38c-10f1-4822-b1f4-7aab076749da?viewport_loc=-1064%2C73%2C4440%2C2076%2C0_0
+
+![screenShotUML1](https://user-images.githubusercontent.com/68748760/115974964-be04db00-a52e-11eb-848e-aa85da9973f4.PNG)
+![screenShotUML2](https://user-images.githubusercontent.com/68748760/115974966-c1986200-a52e-11eb-91e5-96b6f9f61c8c.PNG)
+![screenShotUML3](https://user-images.githubusercontent.com/68748760/115974968-c3622580-a52e-11eb-822d-e205bea2d21d.PNG)
