@@ -1,7 +1,7 @@
 # Monegro's Restaurant
-##Description:
+## Description:
 Monegro's Restaurant is a sofware developep to be used in a restaurant in which the client would be able to decide what food he/she wants. The order will go to the cashier to be paid, and then to the kitchen to be prepared in a specific time period that will be calculated depending on the experience and size of the order.
-##Stack:
+## Stack:
 *What you will need*:
 
 - Windows Operative System of 64-Bits.
@@ -10,7 +10,7 @@ Monegro's Restaurant is a sofware developep to be used in a restaurant in which 
 
 - Java JDK 16 Development Kit.
 
-##Setup:
+## Setup:
 1. Download the JDK kit for your operative system. This the link of the version used in this project: https://www.oracle.com/java/technologies/javase-jdk16-downloads.html
 2. Go to the folder where you installed the JDK development kit and enter the bin folder. By default is Program Files-> Java->bin. Copy that path.
 3. Go to Settings->System->Environment variables-> Edit the system environment variables. In the Advanced tab, click Environment Variables. Click Path, and then Edit. Add the path for the Java bin folder, and click Ok.
@@ -18,9 +18,9 @@ Monegro's Restaurant is a sofware developep to be used in a restaurant in which 
 5. Click on "New" in the System Variables section. In the "Variable name" section you can put whatever name you prefer, in all caps, for example: JAVA_HOME. In the "Variable value" paste the path of the JDK folder. Click Ok.   
 2. Download and install the IntelliJ IDE. This is the link: https://www.jetbrains.com/idea/download/#section=windows
 7. The Eclipse IDE is ready to work.
-##Project Structure:
+## Project Structure:
 This project is conformed by multiple entities.
-##Entities:
+## Entities:
 - Cashier: Is responsible for charging the order.
 - Chef: Is responsible for cooking the food of the order, it has the properties of Employee as well as its experience.
 - Client: Is responsible for ordering the food and paying.
@@ -37,5 +37,5 @@ This project is conformed by multiple entities.
 - StockProduct: Entity that has the information of ONE product in stock.
 - Person: Entity that has the information of all the different people that eat/work in the restaurant.
 
-##UML Diagram:
+## UML Diagram:
 - This is the link: https://lucid.app/lucidchart/invitations/accept/inv_37c6b38c-10f1-4822-b1f4-7aab076749da?viewport_loc=-1064%2C73%2C4440%2C2076%2C0_0
