@@ -26,13 +26,12 @@ This project is conformed by multiple entities.
 - Client: Is responsible for ordering the food and paying.
 - Waiter: Is responsible for taking the order.  
 - Employee: It's a general entity that has the properties of User. Every employee of the restaurant has the properties of Employee.
-- Ingredient: It's responsible to hold a single element/ingredient of food with its price and basic measument unit.
-- Product: It's responsible to hold an ingredient with the amount desired of that ingredient.
+- FinalProduct: It's responsible to hold a list of products that conforms a plate.
+- Product: Entity that has the information of an specific product. That product can be as simple as a loaf of bread and as complex as a pizza.
 - Menu: Entity that has the menu to be presented to the client so that he/she can choose.
 - MenuItem: Entity that has a specific plate or combos of them.
 - Order: Entity that has all the plates or products that the client wants to order, the id of the order, the cashier,the final price.
 - OrderDetail: Entity that has one plate, with it's name, price, how many of those plates the client wants.
-- Plate: Entity that has the information of a specific product, or a list of products that conforms a whole plate. That can be as simple as a loaf of bread and as complex as a pizza.
 - Stock: Entity that has the information of each product (ingredient) that the restaurant has.
 - StockProduct: Entity that has the information of ONE product in stock.
 - Person: Entity that has the information of all the different people that eat/work in the restaurant.
@@ -40,6 +39,5 @@ This project is conformed by multiple entities.
 ## UML Diagram:
 - This is the link: https://lucid.app/lucidchart/invitations/accept/inv_37c6b38c-10f1-4822-b1f4-7aab076749da?viewport_loc=-1064%2C73%2C4440%2C2076%2C0_0
 
-![screenShotUML1](https://user-images.githubusercontent.com/68748760/115974964-be04db00-a52e-11eb-848e-aa85da9973f4.PNG)
-![screenShotUML2](https://user-images.githubusercontent.com/68748760/115974966-c1986200-a52e-11eb-91e5-96b6f9f61c8c.PNG)
-![screenShotUML3](https://user-images.githubusercontent.com/68748760/115974968-c3622580-a52e-11eb-822d-e205bea2d21d.PNG)
+![monegros1](https://user-images.githubusercontent.com/68748760/116253967-f11db900-a73e-11eb-93e3-827a83aabb61.PNG)
+![monegros2](https://user-images.githubusercontent.com/68748760/116253978-f4b14000-a73e-11eb-8f6b-1f7babf0d809.PNG)
