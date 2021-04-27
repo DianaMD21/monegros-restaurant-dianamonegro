@@ -21,7 +21,7 @@ public class Stock {
     public void setId(Long id) {
         this.id = id;
     }
-    
+
     public List<StockProduct> getStockProducts() {
         return stockProducts;
     }
