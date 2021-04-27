@@ -6,6 +6,7 @@ public class MenuItem {
     private Long id;
     private List<FinalProduct> finalProduct;
     private Double price;
+    private Menu menu;
 
     public MenuItem() {
     }
@@ -36,5 +37,13 @@ public class MenuItem {
 
     public void setPrice(Double price) {
         this.price = price;
+    }
+
+    public Menu getMenu() {
+        return menu;
+    }
+
+    public void setMenu(Menu menu) {
+        this.menu = menu;
     }
 }
