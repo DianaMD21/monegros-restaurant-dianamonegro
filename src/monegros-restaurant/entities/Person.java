@@ -10,6 +10,14 @@ public class Person {
     private String address;
     private GregorianCalendar birthdate;
 
+    public Person() {
+    }
+
+    public Person(String id) {
+        this.id = id;
+    }
+
+
     public String getName() {
         return name;
     }
