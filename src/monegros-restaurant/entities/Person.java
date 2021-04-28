@@ -1,6 +1,6 @@
 package entities;
 
-import java.util.GregorianCalendar;
+import java.time.ZonedDateTime;
 
 public class Person {
     private String name;
@@ -8,7 +8,7 @@ public class Person {
     private String lastName;
     private String phone;
     private String address;
-    private GregorianCalendar birthdate;
+    private ZonedDateTime birthdate;
 
     public String getName() {
         return name;
@@ -50,11 +50,12 @@ public class Person {
         this.address = address;
     }
 
-    public GregorianCalendar getBirthdate() {
+    public ZonedDateTime getBirthdate() {
         return birthdate;
     }
 
-    public void setBirthdate(GregorianCalendar birthdate) {
+    public void setBirthdate(ZonedDateTime birthdate) {
         this.birthdate = birthdate;
     }
 }
+
